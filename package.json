@@ -1,0 +1,39 @@
+{
+  "name": "finq-frontend",
+  "version": "1.0.0",
+  "description": "FINQ Investment Platform Frontend",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.14",
+    "@heroicons/vue": "^2.0.18",
+    "axios": "^1.5.0",
+    "chart.js": "^4.1.1",
+    "pinia": "^2.1.6",
+    "scss": "^0.2.4",
+    "vite-plugin-vue-devtools": "^7.7.7",
+    "vue": "^3.3.4",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.2.4",
+    "vue-toastification": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.1",
+    "@vue/test-utils": "^2.4.1",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.46.0",
+    "eslint-plugin-vue": "^9.16.1",
+    "jsdom": "^22.1.0",
+    "postcss": "^8.4.27",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5",
+    "vite": "^4.4.5",
+    "vitest": "^0.34.1"
+  }
+}
