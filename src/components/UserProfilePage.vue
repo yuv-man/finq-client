@@ -337,14 +337,10 @@ h1 {
   }
 
   .save-user-buttons {
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
   }
 
-  .save-user-buttons button {
-    width: 100%;
-    max-width: 240px;
-  }
 
   .buttons {
     flex-direction: column;
